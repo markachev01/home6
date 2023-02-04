@@ -1,0 +1,47 @@
+body {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    p {
+        margin: 0;
+    }
+
+    h3 {
+        margin: 0;
+
+        font-size: 32px;
+        font-weight: bold;
+
+        color: var(--white);
+
+        text-align: center;
+    }
+
+    h1 {
+        color: $form-color;
+
+        font-size: 42px;
+
+        text-align: center;
+
+        text-decoration: line-through;
+        text-decoration-color: $form-color;
+    }
+
+    main {
+        padding: 2rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+
+        background-color: var(--white);
+    }
+
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+
+}

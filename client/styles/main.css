@@ -1,0 +1,311 @@
+@import url(./_slider.css);
+body {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body p {
+  margin: 0;
+}
+body h3 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--white);
+  text-align: center;
+}
+body h1 {
+  color: #913068;
+  font-size: 42px;
+  text-align: center;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #913068;
+          text-decoration-color: #913068;
+}
+body main {
+  padding: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: var(--white);
+}
+body .container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #262e2c;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.header .navbar {
+  text-align: center;
+}
+.header .navbar .logo {
+  float: left;
+}
+.header .navbar .logo .logo__link__img {
+  display: inline;
+  width: 45px;
+  height: 45px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.header .navbar .navbar__lists {
+  margin: 0;
+  padding: 0;
+}
+.header .navbar .navbar__list {
+  display: inline-block;
+  padding: 1.6rem;
+  list-style: none;
+}
+.header .navbar .navbar__list .navbar__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+.header .navbar .navbar__list .navbar__link:hover {
+  color: #cf316e;
+}
+.header .navbar .navbar__list__logo {
+  display: inline-block;
+  float: right;
+  list-style: none;
+  margin-top: 12px;
+  padding-left: 1.6rem;
+}
+.header .header-discription {
+  background-color: #cf316e;
+  height: 60px;
+  text-align: center;
+  box-shadow: 0 6px 5px rgba(57, 63, 72, 0.3);
+}
+.header .header-discription .header-discription__text {
+  color: #ffffff;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.section .section__title1 {
+  margin-top: 150px;
+  font-size: 42px;
+  text-align: center;
+  text-decoration: line-through;
+}
+.section .info {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/travel-composition-with-magnifying-glass.jpg");
+  background-position: 50% 50%;
+  padding: 5rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.section .info .info__title {
+  color: #cf316e;
+}
+.section .info .info__text {
+  margin-top: 20px;
+  color: #cf316e;
+  text-align: center;
+}
+.section .info .info__link {
+  color: #cf316e;
+  text-align: center;
+  text-decoration: none;
+}
+
+.popup {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.section2 {
+  background-color: #e6e3e3;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5rem;
+}
+.section2 .section2__title {
+  color: #913068;
+  font-size: 42px;
+  text-align: center;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #913068;
+          text-decoration-color: #913068;
+}
+.section2 .delivery__list {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin-left: 200px;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.section2 .delivery__img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.section2 .delivery__list:nth-child(1) {
+  margin-left: 0px;
+}
+.section2 .delivery-dis__lists {
+  padding-left: 0;
+  margin: 0 auto;
+}
+.section2 .delivery-dis__list {
+  display: inline-block;
+  margin-left: 60px;
+}
+.section2 .delivery-dis__list:nth-child(1) {
+  margin: 0px;
+}
+.section2 .delivery-dis__text {
+  color: #cf316e;
+}
+
+.section3 .section3__title {
+  color: #913068;
+  font-size: 42px;
+  text-align: center;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #913068;
+          text-decoration-color: #913068;
+}
+.section3 .products-cards .products__list {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+}
+.section3 .products-cards .products__img {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+}
+.section3 .products-cards .products__img:hover {
+  box-shadow: 0 6px 5px rgba(57, 63, 72, 0.3);
+  cursor: pointer;
+}
+
+.section5 .section5__title {
+  color: #913068;
+  font-size: 42px;
+  text-align: center;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #913068;
+          text-decoration-color: #913068;
+}
+.section5 .contacts {
+  padding: 10rem;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/travel-composition-with-magnifying-glass.jpg");
+  background-position: 50% 50%;
+}
+.section5 .contacts a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.section5 .contacts .text__contacts {
+  margin-top: 40px;
+}
+
+.section6 .form {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #cf316e;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+.section6 .form .form__user-data {
+  background-color: #913068;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  height: 50px;
+}
+
+.footer {
+  background-color: #262e2c;
+}
+.footer .footer-discription {
+  background-color: #cf316e;
+  height: 60px;
+  text-align: center;
+  box-shadow: 0 6px 5px rgba(57, 63, 72, 0.3);
+}
+.footer .footer-discription .footer__text {
+  color: #ffffff;
+  padding-top: 20px;
+  margin: auto;
+}
+.footer .navbar {
+  text-align: center;
+}
+.footer .navbar .logo {
+  float: left;
+}
+.footer .navbar .logo__link__img {
+  display: inline;
+  width: 45px;
+  height: 45px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.footer .navbar .navbar__lists {
+  margin: 0;
+  padding: 0;
+}
+.footer .navbar .navbar__list {
+  display: inline-block;
+  padding: 1.6rem;
+  list-style: none;
+}
+.footer .navbar .navbar__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+.footer .navbar .navbar__link:hover {
+  color: #cf316e;
+}
+.footer .footer-title {
+  background-color: #29463e;
+  height: 80px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.footer .footer-title .footer-title__text {
+  color: #ffffff;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.form__button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  color: #cf316e;
+}/*# sourceMappingURL=main.css.map */

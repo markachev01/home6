@@ -1,0 +1,80 @@
+.header {
+    background-color: $gray;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    .navbar {
+        text-align: center;
+
+        .logo {
+            float: left;
+
+            .logo__link__img {
+                display: inline;
+
+                width: 45px;
+                height: 45px;
+
+                padding-left: 1rem;
+                padding-top: 1rem;
+            }
+        }
+
+
+
+        .navbar__lists {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar__list {
+            display: inline-block;
+            padding: 1.6rem;
+
+            list-style: none;
+
+            .navbar__link {
+                text-decoration: none;
+                color: $white;
+
+                font-size: 18px;
+            }
+
+            .navbar__link:hover {
+                color: $link-hover;
+            }
+        }
+
+        .navbar__list__logo {
+            display: inline-block;
+
+            float: right;
+
+            list-style: none;
+
+            margin-top: 12px;
+            padding-left: 1.6rem;
+        }
+    }
+
+    .header-discription {
+        background-color: $link-hover;
+
+        height: 60px;
+
+        text-align: center;
+
+        box-shadow: 0 6px 5px $shadow;
+
+        .header-discription__text {
+            color: $white;
+
+            padding-top: 20px;
+            margin: auto;
+        }
+    }
+}
